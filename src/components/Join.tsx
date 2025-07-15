@@ -2,7 +2,6 @@ import React from 'react';
 import  './about.css';
 import Video from "./video2.mp4";
 import Header from './header.tsx';
-import { useState } from 'react';
 
 const Join = () => {
  

@@ -5,7 +5,6 @@ import Contact from './components/contact.tsx';
 import About from './components/about.tsx';
 import Welcome from './components/Welcome.tsx';
 import Join from './components/Join.tsx';
-import Staff from './components/Staff.tsx';
 
 
 
@@ -19,8 +18,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/join" element={<Join  />} />
-        <Route path="/welcome" element={<Welcome />} />
-        <Route path="/staff" element={<Staff />} />
       </Routes>
     </Router>
   );
